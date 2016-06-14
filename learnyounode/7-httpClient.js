@@ -1,3 +1,4 @@
+//exercise 7 of 13
 /*
 * Exercise 7: http client
 * write a program that performs an http GET request
@@ -6,12 +7,12 @@
 * to a new line on the console (stdout).
 */
 
-var http = require("http");
+var http = require('http');
 var url = process.argv[2];
 
 function callback(response){
-  response.setEncoding("utf8");
-  response.on("data", function(data){console.log(data);});
+  response.setEncoding('utf8');
+  response.on('data', function(data){console.log(data);});
 };
 
 http.get(url, callback);

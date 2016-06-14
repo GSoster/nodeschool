@@ -1,8 +1,9 @@
+//exercise 3 of 13
 /*
 * read the number of '\n' in file using a single synchronous filesystem
 * operation
 */
-var fs = require("fs");
+var fs = require('fs');
 
 //fs.readFileSync returns a buffer object containing the complete contents of the file.
 var str = fs.readFileSync(process.argv[2]).toString();
