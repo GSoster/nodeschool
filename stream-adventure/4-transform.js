@@ -1,12 +1,12 @@
 //Exercise 4 of 15
-require through = require('through2');
+var through = require('through2');
 function write (chuck, enconding, next) {
   //chuck of data received
   this.push(chuck.toString().toUpperCase());
   next();
 };
 
-function end () {
+function end (done) {
   done();
 };
 
