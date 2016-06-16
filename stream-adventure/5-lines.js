@@ -12,7 +12,7 @@ function write (line, encoding, next) {
     l = line.toString().toUpperCase();
   }
   count++;
-  this.push(l);
+  this.push('\n' + l);//'\n'+ is necessary to pass the test that expects \n in the answer.
   next();
 };
 
