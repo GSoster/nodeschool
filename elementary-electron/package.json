@@ -1,0 +1,26 @@
+{
+  "name": "elementary-electron",
+  "version": "1.0.0",
+  "description": "tutorial from  nodeschool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSoster/nodeschool.git"
+  },
+  "keywords": [
+    "nodejs",
+    "electron"
+  ],
+  "author": "GSoster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSoster/nodeschool/issues"
+  },
+  "homepage": "https://github.com/GSoster/nodeschool#readme",
+  "dependencies": {
+    "cat-picture": "^5.1.2"
+  }
+}
