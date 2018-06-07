@@ -3,8 +3,10 @@ My learning path through nodeschool
 
 ## Core
 [These workshoppers focus on essential skills for working with Node.js].
+
 - [x] Javascripting (Learn the basics of JavaScript. No previous programming experience required).
 - [x] Learnyounode (Learn the basics of node: asynchronous i/o, http).
+- [ ] Learnyoureact (Let's learn React.js and server side rendering!).
 - [ ] Git init (Learn Git and GitHub basics).
 - [ ] How to NPM (Learn how to use and create npm modules).
 - [x] Scope Chains & Closures (Learn the details of Scope, Scope Chains, Closures, and Garbage Collection).
